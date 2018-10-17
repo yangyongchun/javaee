@@ -11,8 +11,8 @@ nav{
     width:100%;
     height:50px;
     background-color:black;
-    position:fixed;
-    top:0
+    position:absolute;
+    top:0px;
     color:white;
 }
 nav ul {
@@ -44,12 +44,12 @@ nav li a:hover {
 <header>
   <nav>
     <ul>
-      <li><a href="#" title="首页" target="_blank">首页</a></li>
-      <li><a href="http://localhost:8080/YYC/jsp/jianjie.jsp" title="企业简介" target="_blank">企业简介</a></li>
-      <li><a href="#" title="新闻" target="_blank">新闻</a></li>
-      <li><a href="#" title="产品展示" target="_blank">核心竞争力</a></li>
-      <li><a href="#" title="联系我们" target="_blank">联系我们</a></li>
-      <li><a href="#" title="用户登录" target="_blank">用户登录</a></li>
+      <li><a href="http://localhost:8080/YYC" title="首页">首页</a></li>
+      <li><a href="http://localhost:8080/YYC/jsp/jianjie.jsp" title="企业简介">企业简介</a></li>
+      <li><a href="http://localhost:8080/YYC/jsp/news_qian.jsp" title="新闻">新闻</a></li>
+      <li><a href="http://localhost:8080/YYC/jsp/goods_qian.jsp" title="核心产品">核心产品</a></li>
+      <li><a href="http://localhost:8080/YYC/jsp/dingwei.jsp" title="联系我们">联系我们</a></li>
+      <li><a href="http://localhost:8080/YYC/jsp/login.jsp" title="用户登录">用户登录</a></li>
     </ul>
   </nav>
 </header>

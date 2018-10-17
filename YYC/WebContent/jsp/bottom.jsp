@@ -10,12 +10,13 @@
     width:100%;;
     height:20px;
     background-color:black;
-    position:fixed;
-    bottom:0;
     color:white;
-    text-align:center;
+    text-align:center; 
+    position:fixed;
+    bottom:0px;
     }
-    a{
+    .aa{
+    text-decoration: none;
     color:white;
     }
 </style>
@@ -24,7 +25,7 @@
 <div class="bottom">
 <span>
     Copyright YYC 2018, All Rights Reserved
-</span>　<a href="http://www.miibeian.gov.cn" target="_blank">苏 ICP 备：10033130号</a><img src="http://www.hyit.edu.cn/plug/spider/call.asp" border="0" width="0" height="0">
+</span>　<a class="aa" href="http://www.miibeian.gov.cn" target="_blank">苏 ICP 备：10033130号</a><img src="http://www.hyit.edu.cn/plug/spider/call.asp" border="0" width="0" height="0">
 </div>
 
 </body>

@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ include file="daohangtiao.jsp"%>
-<%@ include file="bottom.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +22,7 @@
                     case "#gaikuang":
                         pathn = "jianjie_1.jsp";
                         i = 0;
-                        break;　　　　　　　
+                        break;
                     case "#renzheng":
                         pathn = "jianjie_2.jsp";
                         i = 1;
@@ -38,7 +37,7 @@
     </script>
 
 <style type="text/css">
-img {
+.img1 {
 	width: 1280px;
 	height: 200px;
 }
@@ -60,7 +59,7 @@ ul, li {
 .biaoti {
 	font-size: 30px;
 	font-weight: 20px;
-	color: blue;
+	color: #444444;
 }
 
 a {
@@ -74,19 +73,19 @@ a:hover {
 </style>
 </head>
 <body>
-	<img src="../img/2.jpg">
+	<img class="img1" src="../img/2.jpg">
 	<div class="qiyejianjie">
 		<ul class="menu">
 			<li class="biaoti" data-id="center">企业简介</li>
 			<li><br></li>
 			<li data-id="gaikuang"><a href="javascript:;"
 				onclick="turnpage('jianjie_1')">企业概况</a></li>
-			<li data-id="renzheng"><a href="javascript:;">企业认证</a></li>
+			<li data-id="renzheng"><a href="javascript:;"
+			 onclick="turnpage('jianjie_2')">企业认证</a></li>
 		</ul>
 		<div id="content"></div>
 	</div>
 	<div  id="content">
-		<div class="mainbox"><p style="position:fixed;top:200px;right:0px">当前位置：企业简介</p></div>
 	</div>
 
 </body>
